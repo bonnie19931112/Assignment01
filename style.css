@@ -1,0 +1,29 @@
+#items {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#items div:focus {
+    outline: none;
+}
+
+#items img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    transition: 0.5s;
+}
+
+#items img:hover {
+    border-radius: 5px;
+}
+
+#items h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #aaa
+}
