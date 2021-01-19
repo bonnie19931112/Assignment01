@@ -1,3 +1,3 @@
-$("#items").slick({
-    slideToShow: 3
-})
+$('#items').slick({
+    slidesToShow: 3
+});
